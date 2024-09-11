@@ -1,0 +1,22 @@
+{
+  "framework-version": 12,
+  "authors": [
+	{
+	  "name": "KYle McGuffin",
+	  "email": "datacore@vumc.or",
+	  "institution": "Vanderbilt University Medical Center"
+	}
+  ],
+  "name": "Test Data Pull",
+  "namespace": "VUMC\\testDataPull",
+  "description": "Test cron project",
+  "crons": [
+	{
+  		"cron_name": "data-test-cron",
+  		"cron_description": "Test module",
+ 	 	"method": "run_cron",
+  		"cron_frequency": "86400",
+  		"cron_max_run_time": "300"
+	}
+  ]
+}
